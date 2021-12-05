@@ -1,0 +1,10 @@
+---
+title: "Documentation"
+author: "David Peterson & Annie Kelly"
+date: "11/19/2021"
+output: html_document
+---
+
+#Documentation
+
+In this project, we used Annie's data set which was about women's fertility rates over time and how they changed or increased or decreased. Our most major input for the project was the data from women fertility in the US and the other set provided. The main output of our project were the visualizations that showed how fertility has increased and decreased over time. The function we used help to isolate the data and the different variables to allow us to accurately plot the data below. The loops we used to make sure that the numbers counted were even and more condensed which means that our graphing will be less messy and more concise. The other loop we did helped to make sure that the data was accurate allow the visualization to happen.
