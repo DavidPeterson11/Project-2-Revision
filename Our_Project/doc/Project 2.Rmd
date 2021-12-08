@@ -4,13 +4,19 @@ author: "Anne Kelly"
 date: "10/17/2021"
 output: html_document
 ---
+---
+title: "Annie's and David's Project Data"
+author: "Anne Kelly"
+date: "10/17/2021"
+output: html_document
+---
 ```{r}
 library(tidyverse)
 ```
 
 ```{r}
 library(readr)
-Womanfertility <- read_csv("Womanfertility.csv")
+Womanfertility <- read_csv("../data/Womanfertility.csv")
 #View(Womanfertility)
 
 
@@ -39,6 +45,7 @@ for (val in x) {
 if(val %% 2 == 0)  count = count+1
 }
 print(count)
+
 
 
 ```
