@@ -1,8 +1,12 @@
 
-``{r}
+```{r}
+library(tidyverse)
+```
+
+```{r}
 library(readr)
 Womanfertility <- read_csv("Womanfertility.csv")
-View(Womanfertility)
+#View(Womanfertility)
 
 
 Woman.long <- pivot_longer(Womanfertility, cols=!country, names_to = "Year",values_to="Fertility")
@@ -31,17 +35,5 @@ if(val %% 2 == 0)  count = count+1
 }
 print(count)
 
-for (i in 1:nrow(Woman.US)) {
-  if (i == 1) {
-    print("i is 1")
-  } else {
-    print("i is not 1")
-  }
-  for (j in 1:nrow(Woman.US)) {
-    print(paste("FOR 2: ", j))
-    for (k in 1:nrow(Woman.US)) {
-      cat(paste("FOR 3: ", k, "\n"))
-    }
-  }
-}
+
 ```
